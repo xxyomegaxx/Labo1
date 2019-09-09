@@ -18,7 +18,9 @@ public class Point {
 	 */
 	
 	public void dessiner(Graphics2D graph){
-		graph.drawLine(x, y, x, y);		 
+		graph.drawLine(x-5, y+5, x+5, y-5);
+		graph.drawLine(x+5, y+5, x-5, y-5);
+
 	}
 	
 	/*
